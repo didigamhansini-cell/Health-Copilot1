@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://health-copilot1-1.onrender.com';
 
 function getAuthHeader() {
   const token = localStorage.getItem('HEALTH_COPILOT_AUTH_TOKEN');
